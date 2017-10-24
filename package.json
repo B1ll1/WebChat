@@ -1,0 +1,26 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "description": "WebChat made using Node.js and Socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "socket.io",
+    "express"
+  ],
+  "author": "Rodolfo Lima Zahn",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-hbs": "^1.0.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.2.1",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.9.0"
+  }
+}
